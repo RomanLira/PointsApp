@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointsApp.DomainModel", "PointsApp.DomainModel\PointsApp.DomainModel.csproj", "{A60F4712-3D17-402C-9F7B-B20A100DC9B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointsApp.DataAccess.EF", "PointsApp.DataAccess.EF\PointsApp.DataAccess.EF.csproj", "{614E1E13-7C7B-42B6-B829-C798EB7F2018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointsApp.Infrastructure.Interfaces", "PointsApp.Infrastructure.Interfaces\PointsApp.Infrastructure.Interfaces.csproj", "{C70F6F2D-AF5F-46B8-821F-19AECEE34905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointsApp.Infrastructure.Services", "PointsApp.Infrastructure.Services\PointsApp.Infrastructure.Services.csproj", "{97D532B9-6706-4431-9B25-D0AA2BA1E5F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointsApp.Web", "PointsApp.Web\PointsApp.Web.csproj", "{A5853528-A609-47BA-A6BD-F77751839854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointsApp.Utils", "PointsApp.Utils\PointsApp.Utils.csproj", "{109563AC-728C-4E98-A04B-A566A0BDE574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A60F4712-3D17-402C-9F7B-B20A100DC9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60F4712-3D17-402C-9F7B-B20A100DC9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60F4712-3D17-402C-9F7B-B20A100DC9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60F4712-3D17-402C-9F7B-B20A100DC9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614E1E13-7C7B-42B6-B829-C798EB7F2018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614E1E13-7C7B-42B6-B829-C798EB7F2018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614E1E13-7C7B-42B6-B829-C798EB7F2018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614E1E13-7C7B-42B6-B829-C798EB7F2018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70F6F2D-AF5F-46B8-821F-19AECEE34905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70F6F2D-AF5F-46B8-821F-19AECEE34905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70F6F2D-AF5F-46B8-821F-19AECEE34905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70F6F2D-AF5F-46B8-821F-19AECEE34905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D532B9-6706-4431-9B25-D0AA2BA1E5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D532B9-6706-4431-9B25-D0AA2BA1E5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D532B9-6706-4431-9B25-D0AA2BA1E5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D532B9-6706-4431-9B25-D0AA2BA1E5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5853528-A609-47BA-A6BD-F77751839854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5853528-A609-47BA-A6BD-F77751839854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5853528-A609-47BA-A6BD-F77751839854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5853528-A609-47BA-A6BD-F77751839854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109563AC-728C-4E98-A04B-A566A0BDE574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109563AC-728C-4E98-A04B-A566A0BDE574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109563AC-728C-4E98-A04B-A566A0BDE574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109563AC-728C-4E98-A04B-A566A0BDE574}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

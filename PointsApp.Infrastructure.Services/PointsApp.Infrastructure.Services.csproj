@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PointsApp.DataAccess.EF\PointsApp.DataAccess.EF.csproj" />
+      <ProjectReference Include="..\PointsApp.Infrastructure.Interfaces\PointsApp.Infrastructure.Interfaces.csproj" />
+      <ProjectReference Include="..\PointsApp.Utils\PointsApp.Utils.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="15.0.1" />
+    </ItemGroup>
+
+</Project>
