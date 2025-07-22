@@ -28,4 +28,9 @@ public interface IPointService
     /// Удаляет точку
     /// </summary>
     Task<bool> Delete(int id);
+    
+    /// <summary>
+    /// Удаляет все точки
+    /// </summary>
+    Task<bool> DeleteAll();
 }

@@ -86,7 +86,7 @@ public class PointsController : ControllerBase
     /// <summary>
     /// Удаляет существующую точку
     /// </summary>
-    /// <response code="200"> Успешный запрос. Точка удалена. </response>
+    /// <response code="204"> Успешный запрос. Точка удалена. </response>
     /// <response code="404"> Точка не найдена. </response>
     /// <response code="500"> Ошибка удаления точки. </response>
     [HttpDelete("{id}")]
@@ -99,6 +99,24 @@ public class PointsController : ControllerBase
 
         if (!result)
             return NotFound();
+
+        return NoContent();
+    }
+    
+    /// <summary>
+    /// Удаляет все точки
+    /// </summary>
+    /// <response code="204"> Успешный запрос. Точка удалена. </response>
+    /// <response code="500"> Ошибка удаления точек. </response>
+    [HttpDelete]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType( StatusCodes.Status500InternalServerError)]
+    public async Task<IActionResult> DeleteAll(int id)
+    {
+        var result = await _pointService.DeleteAll();
+
+        if (!result)
+            return BadRequest();
 
         return NoContent();
     }

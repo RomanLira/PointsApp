@@ -83,4 +83,14 @@ public class PointService : IPointService
 
         return true;
     }
+    
+    public async Task<bool> DeleteAll()
+    {
+        var entities = await _dbContext.Points.ToListAsync();
+        
+        _dbContext.Points.RemoveRange(entities);
+        await _dbContext.SaveChangesAsync();
+
+        return true;
+    }
 }

@@ -73,7 +73,7 @@ public class CommentsController : ControllerBase
     /// <summary>
     /// Удаляет существующий комментарий
     /// </summary>
-    /// <response code="200"> Успешный запрос. Комментарий удален. </response>
+    /// <response code="204"> Успешный запрос. Комментарий удален. </response>
     /// <response code="404"> Комментарий не найден. </response>
     /// <response code="500"> Ошибка удаления комментария. </response>
     [HttpDelete("{id}")]
